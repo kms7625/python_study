@@ -23,24 +23,24 @@
 #         break  # 반복문 종료
 
 # []는 파이썬 리스트 타입 , 반복문 for는 이 리스트안의 내용을 한번씩 반복
-for n in [1, 2, 3]:
-    print(n)
+# for n in [1, 2, 3]:
+#     print(n)
 
-for s in ['다람쥐', '펭귄', '아나콘다', '하이에나']:
-    print(s)
+# for s in ['다람쥐', '펭귄', '아나콘다', '하이에나']:
+#     print(s)
 
-for c in '홍길동님':  # 문자열의 철자를 반복
-    print(c)
+# for c in '홍길동님':  # 문자열의 철자를 반복
+#     print(c)
 
-# for반복문과 자주쓰는 함수 range(시작, 끝) 리턴값은 시작 ~ 끝-1
-for n in range(3):  # 0부터 3-1
-    print(n)
-# 1에서 100까지 합은
-total = 0
-for x in range(1, 101):
-    total += x
+# # for반복문과 자주쓰는 함수 range(시작, 끝) 리턴값은 시작 ~ 끝-1
+# for n in range(3):  # 0부터 3-1
+#     print(n)
+# # 1에서 100까지 합은
+# total = 0
+# for x in range(1, 101):
+#     total += x
 
-print("1에서 100까지 더한값: ", total)
+# print("1에서 100까지 더한값: ", total)
 
 # 구구단 2단
 for i in range(1, 10):
