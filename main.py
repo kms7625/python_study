@@ -3,6 +3,6 @@ import hello
 
 # 불러온 헬로우 모듈의 __name__은 모듈의 이름과 같다.
 
-print('main.py __name__ : ', __name__) #__name__변수 출력
+print('main.py __name__ : ', __name__)  # __name__변수 출력
 
 # __main__이라는 값은 현재 실행되는 파일의 __name__변수 값이다.
